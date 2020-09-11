@@ -1,1 +1,1 @@
-# sinov-imtihoni2
+# 2 Oy Davomida O'zlashtirganlarim Maxsuli :)
