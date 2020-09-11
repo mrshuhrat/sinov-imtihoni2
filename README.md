@@ -1,1 +1,1 @@
-# sinov-imtihoni2
+# 2oy davomida o'zlashtirganlarim maxsuli ))
