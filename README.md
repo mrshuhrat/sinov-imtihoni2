@@ -1,1 +1,1 @@
-# 2oy davomida o'zlashtirganlarim maxsuli ))
+# 2 Oy Davomida O'zlashtirganlarim Maxsuli ))
