@@ -1,25 +1,58 @@
+/* FONTS */
+@font-face {
+  font-family: "Futura PT";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("FuturaPT-Light.woff2") format("woff2"),
+      url("FuturaPT-Light.woff") format("woff");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("FuturaPT-Medium.woff2") format("woff2"),
+      url("FuturaPT-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "Futura PT";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+  src: url("FuturaPT-Bold.woff2") format("woff2"),
+      url("FuturaPT-Bold.woff") format("woff");
+}
+
+/* MAIN-STYLES */
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   padding: 0;
   margin: 0;
+  font-family: "Futura PT", "Arial", sans-serif;
   line-height: 1.5;
 }
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 1148px;
   margin-left: auto;
   margin-right: auto;
 }
-.img {
-  max-width: 100%;
-  height: auto;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
