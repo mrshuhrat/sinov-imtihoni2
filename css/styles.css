@@ -1,27 +1,27 @@
 /* FONTS */
 @font-face {
-  font-family: 'Futura PT Book';
+  font-family: "Futura PT";
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url('FuturaPT-Book.woff2') format('woff2'),
-    url('FuturaPT-Book.woff') format('woff');
+  src: url("../fonts/FuturaPT-Book.woff2") format("woff2"),
+    url("../fonts/FuturaPT-Book.woff") format("woff");
 }
 @font-face {
   font-family: "Futura PT";
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url("FuturaPT-Medium.woff2") format("woff2"),
-    url("FuturaPT-Medium.woff") format("woff");
+  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"),
+    url("../fonts/FuturaPT-Medium.woff") format("woff");
 }
 @font-face {
   font-family: "Futura PT";
   font-weight: bold;
   font-style: normal;
   font-display: swap;
-  src: url("FuturaPT-Bold.woff2") format("woff2"),
-    url("FuturaPT-Bold.woff") format("woff");
+  src: url("../fonts/FuturaPT-Bold.woff2") format("woff2"),
+    url("../fonts/FuturaPT-Bold.woff") format("woff");
 }
 
 /* MAIN-STYLES */
