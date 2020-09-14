@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veterinary</title>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -13,22 +13,24 @@
           SITE-HEADER
   ======================= -->
 
-  <div class="container">
-    <div class="header__top">
+  <div class="top-header">
+    <div class="container">
+      <div class="header__top">
 
-      <address class="address">г. Мариуполь, проспект Победы, 48а</address>
-  
-      <div class="phone-num-list">
-        <a class="phone-num" href="tel:0676347574">(067) 634 -75 - 74</a>
-        <a class="phone-num" href="tel:0637570131">(0637) 57 - 01 - 31</a>
-        <a class="phone-num" href="tel:0982664389">(098) 266 - 43 - 89</a>
+        <address class="address">г. Мариуполь, проспект Победы, 48а</address>
+    
+        <div class="phone-num-list">
+          <a class="phone-num" href="tel:0676347574">(067) 634 -75 - 74</a>
+          <a class="phone-num" href="tel:0637570131">(0637) 57 - 01 - 31</a>
+          <a class="phone-num" href="tel:0982664389">(098) 266 - 43 - 89</a>
+        </div>
+    
+        <div class="work-time">
+          <p class="work-clock"><strong>Пн - Пт</strong> 8:00 - 18:00</p>
+          <p class="work-clock"><strong>Сб - Вс</strong> 8:00 - 14:00</p>
+        </div>
+    
       </div>
-  
-      <div class="work-time">
-        <p class="work-clock"><strong>Пн - Пт</strong> 8:00 - 18:00</p>
-        <p class="work-clock"><strong>Сб - Вс</strong> 8:00 - 14:00</p>
-      </div>
-  
     </div>
   </div>
 
@@ -104,7 +106,7 @@
       <div class="container">
         <h2 class="slider-heading">Наши услуги</h2>
         <div class="slider-wrapper">
-          <button class="slider-btn" type="button"></button>
+          <button class="slider-btn" type="button"><span class="visually-hidden">prev</span></button>
           <ul class="slider-list">
             <li class="slider-list-item active">
               <a class="slider-link" href="#">
@@ -167,7 +169,7 @@
               </a>
             </li>
           </ul>
-          <button class="slider-btn slider-btn-right" type="button"></button>
+          <button class="slider-btn slider-btn-right" type="button"><span class="visually-hidden">next</span></button>
         </div>
       </div>
     </section>
@@ -197,7 +199,7 @@
       <div class="container">
         <h2>Будь в курсе событий</h2>
         <form action="https://echo.htmlacademy.ru" method="GET">
-          <input type="email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" name="email" id="email" placeholder="Укажите Ваш email адрес">
+          <input type="email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" name="email" id="email" placeholder="Укажите Ваш email адрес" required>
           <button type="submit">Подписаться</button>
         </form>
       </div>
@@ -228,8 +230,53 @@
   ======================= -->
   <footer class="footer">
     <div class="container">
+      <div class="footer-container">
+        <a class="footer-logo" href="index.html">
+          <img src="img/logo.png" alt="site logo img" srcset="img/logo.png 1x, img/logo@2x.png 2x">
+        </a>
+        
+        <nav class="footer-navbar">
+          <ul class="footer-link-list">
+            <li>
+              <a class="nav-list-link foter-nav-link" href="#">Главная</a>
+            </li>
+            <li>
+              <a class="nav-list-link foter-nav-link" href="#">О Клинике</a>
+            </li>
+            <li>
+              <a class="nav-list-link foter-nav-link" href="#">Наши Услуги</a>
+            </li>
+          </ul>
+  
+          <ul class="footer-link-list">
+            <li>
+              <a class="nav-list-link foter-nav-link" href="#">Полезные Статьи</a>
+            </li>
+            <li>
+              <a class="nav-list-link foter-nav-link" href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="nav-list-link foter-nav-link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
 
+        <div class="footer-work-time">
+          <p class="footer-work-clock"><strong>Пн - Пт</strong> 8:00 - 18:00</p>
+          <p class="footer-work-clock"><strong>Сб - Вс</strong> 8:00 - 14:00</p>
+        </div>
+
+        <address class="footer-address">г. Мариуполь, проспект Победы, 48а</address>
+
+        <div class="footrer-phone-num-list">
+          <a class="footer-phone-num" href="tel:0676347574">(067) 634 -75 - 74</a>
+          <a class="footer-phone-num" href="tel:0637570131">(0637) 57 - 01 - 31</a>
+          <a class="footer-phone-num" href="tel:0982664389">(098) 266 - 43 - 89</a>
+        </div>
+
+      </div>
     </div>
   </footer>
+
 </body>
 </html>
