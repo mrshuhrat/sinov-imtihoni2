@@ -197,10 +197,10 @@
 
     <section class="form-section">
       <div class="container">
-        <h2>Будь в курсе событий</h2>
+        <h2 class="form-section-heading">Будь в курсе событий</h2>
         <form action="https://echo.htmlacademy.ru" method="GET">
-          <input type="email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" name="email" id="email" placeholder="Укажите Ваш email адрес" required>
-          <button type="submit">Подписаться</button>
+          <input class="form-email-input" type="email" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" name="email" id="email" placeholder="Укажите Ваш email адрес" required>
+          <button class="form-btn" type="submit">Подписаться</button>
         </form>
       </div>
     </section>
@@ -221,6 +221,24 @@
           <li></li>
           <li></li>
         </ul>
+      </div>
+    </section>
+
+    <section class="map-section">
+      <div class="map-container">
+        <div class="map-section-container">
+          <a href="https://www.google.ru/maps/dir/Gafur+Gulom//@41.3101825,69.2340679,13z/data=!4m9!4m8!1m5!1m1!1s0x38ae8b70de29132d:0x4f62d5ff05a9a3dd!2m2!1d69.2475081!2d41.3275084!1m0!3e0!5m1!1e1">
+            <img class="map-img" src="img/map-img.jpg" alt="map img" width="462" height="652">
+          </a>
+          <form class="map-form" action="https://echo.htmlacademy.ru">
+            <h2 class="map-form-heading">Обратная связь</h2>
+            <p class="map-form-text">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+            <input class="name-input" type="text" placeholder="Ваше имя" required>
+            <input class="email-input" type="email" name="formemail" id="formemail" placeholder="Email для обратной связи" pattern="^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$" required>
+            <input class="queston-input" type="text" placeholder="Опишите Ваш вопрос.">
+            <button class="form-button" type="submit">Задать нам вопрос</button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
